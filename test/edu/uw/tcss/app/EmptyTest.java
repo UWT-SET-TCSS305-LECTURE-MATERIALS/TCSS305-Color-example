@@ -1,17 +1,15 @@
 package edu.uw.tcss.app;
 
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+
 
 class EmptyTest {
 
-    @BeforeEach
-    void setUp() {
-    }
-
-    @AfterEach
-    void tearDown() {
+    @Test
+    void nothingTest() {
+        final String name = "Olivia";
+        assertEquals(name, "", "This test fails");
     }
 }

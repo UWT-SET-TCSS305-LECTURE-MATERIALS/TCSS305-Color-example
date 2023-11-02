@@ -33,19 +33,7 @@ public final class StarterApplication {
      * @param theArgs the command-line arguments for this program.
      */
     public static void main(final String[] theArgs) {
-        LOGGER.info(() -> "Should you need String concatenation,  "
-                + "use a lambda for lazy evaluation. What's that you ask?");
-        LOGGER.info(() -> "What is a magic number you ask?,  "
-                + 1977);
-        LOGGER.severe("This is really bad");
-        LOGGER.warning("I've got a bad feeling about this");
-        LOGGER.info(() -> "Primative typs must be wrapped the Logger class "
-                + "methods only accept objects.");
-        LOGGER.info(String.valueOf(42));
-        final int aNumber = 42;
-        LOGGER.info(String.valueOf(aNumber));
+        LOGGER.info("Hello World!");
 
-        // System.out.println should not be used unless this is an actual console application!
-        // Maybe not even then.
     }
 }
