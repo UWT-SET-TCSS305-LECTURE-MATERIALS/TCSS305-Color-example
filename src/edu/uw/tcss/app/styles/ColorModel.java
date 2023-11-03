@@ -68,8 +68,6 @@ public class ColorModel implements MutableColor {
         if (theRed < MIN_VALUE || theRed > MAX_VALUE) {
             throw new IllegalArgumentException("The value for red must be [0-255]. ");
         }
-       
-        
         myRed = theRed;
     }
 
@@ -144,7 +142,7 @@ public class ColorModel implements MutableColor {
      * @param theInt an integer to be converted to a string
      * @return the 2 character hex string
      */
-    private String getHex(final int theInt) {
+    protected String getHex(final int theInt) {
         if (theInt > MAX_VALUE) {
             throw new IllegalArgumentException("Argument should not be greater than 255. That "
                                                + "would need a 3 or more character String.");
