@@ -7,7 +7,7 @@ import java.util.logging.Logger;
  * A driver class for this application.
  *
  * @author Charles Bryan
- * @version Autumn 2023
+ * @version Autumn 2025
  */
 public final class StarterApplication {
 

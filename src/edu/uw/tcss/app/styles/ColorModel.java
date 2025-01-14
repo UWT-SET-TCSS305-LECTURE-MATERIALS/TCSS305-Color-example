@@ -10,7 +10,7 @@ import java.util.Objects;
  * object are mutable.
  * 
  * @author Charles Bryan
- * @version Autumn 2018
+ * @version Winter 2025
  */
 public class ColorModel implements MutableColor {
 
